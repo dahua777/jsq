@@ -116,7 +116,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TEn-v6-O3V">
-                                <rect key="frame" x="123" y="331" width="97" height="30"/>
+                                <rect key="frame" x="123" y="387" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -125,6 +125,20 @@
                                 <state key="normal" title="."/>
                                 <connections>
                                     <action selector="dian:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dV3-Lm-sjd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxp-ue-8C8">
+                                <rect key="frame" x="156" y="328" width="30" height="30"/>
+                                <state key="normal" title="0"/>
+                                <connections>
+                                    <action selector="num0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tus-74-FUX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nFO-CS-O1i">
+                                <rect key="frame" x="242" y="336" width="30" height="30"/>
+                                <state key="normal" title="&lt;-"/>
+                                <connections>
+                                    <action selector="tuige:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q4S-Q9-pME"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -136,7 +150,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="194" y="387"/>
+            <point key="canvasLocation" x="87" y="385"/>
         </scene>
     </scenes>
 </document>

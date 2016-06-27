@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E7863C4AD2B37416FB33ADA73A831F9A22DDE25F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E7863C4AD2B37416FB33ADA73A831F9A22DDE25F" : 0,
+    "402CDF388A23693F66AE4AADFA54016B83FABD75" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7AE146FE-A743-4AE0-B4F8-17EE48616AB0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E7863C4AD2B37416FB33ADA73A831F9A22DDE25F" : "jsq\/",
+    "402CDF388A23693F66AE4AADFA54016B83FABD75" : "jsq\/jsq\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "jsq",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "jsq.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dahua777\/jsq.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "402CDF388A23693F66AE4AADFA54016B83FABD75"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dahua777\/jsq.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E7863C4AD2B37416FB33ADA73A831F9A22DDE25F"
+    }
+  ]
+}

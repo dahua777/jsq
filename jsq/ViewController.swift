@@ -9,9 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBAction func tuige(sender: AnyObject) {
+        var cs=sum.text!
+        if(cs != "")
+        {
+        cs.removeAtIndex(cs.endIndex.predecessor())
+        sum.text!=cs
+        }
+    }
+    @IBAction func num0(sender: AnyObject) {
+        sum.text!=sum.text!+"\(0)"
+    }
     @IBAction func dian(sender: AnyObject) {
-        
-        
         if(d==0)
         {
             sum.text!=sum.text!+"."
@@ -69,6 +78,7 @@ class ViewController: UIViewController {
     var temp:Double=0
     var jieguo:Double=0
     var d=0
+    
     @IBAction func add(sender: AnyObject) {
         flag=1
         temp=(Double)(sum.text!)!
@@ -77,6 +87,7 @@ class ViewController: UIViewController {
         
     }
     @IBAction func num9(sender: AnyObject) {
+        
         sum.text!=sum.text!+"\(9)"
     }
     @IBAction func num8(sender: AnyObject) {
