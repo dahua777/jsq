@@ -484,6 +484,7 @@
 				D90240E71D1A9C9600A7E837 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D90240E81D1A9C9600A7E837 /* Build configuration list for PBXNativeTarget "jsqTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +493,7 @@
 				D90240EA1D1A9C9600A7E837 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D90240EB1D1A9C9600A7E837 /* Build configuration list for PBXNativeTarget "jsqUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +502,7 @@
 				D90240ED1D1A9C9600A7E837 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
