@@ -9,6 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var zf:Double=0
+    @IBAction func zhengfu(sender: AnyObject) {
+        zf=(Double)(sum.text!)!
+        zf=zf*(-1)
+        sum.text!="\(zf)"
+        
+        
+    }
     @IBAction func tuige(sender: AnyObject) {
         var cs=sum.text!
         if(cs != "")

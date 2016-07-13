@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -127,18 +127,25 @@
                                     <action selector="dian:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dV3-Lm-sjd"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxp-ue-8C8">
-                                <rect key="frame" x="156" y="328" width="30" height="30"/>
-                                <state key="normal" title="0"/>
-                                <connections>
-                                    <action selector="num0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tus-74-FUX"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nFO-CS-O1i">
                                 <rect key="frame" x="242" y="336" width="30" height="30"/>
                                 <state key="normal" title="&lt;-"/>
                                 <connections>
                                     <action selector="tuige:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q4S-Q9-pME"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7jT-UA-4TU">
+                                <rect key="frame" x="61" y="336" width="30" height="30"/>
+                                <state key="normal" title="+/-"/>
+                                <connections>
+                                    <action selector="zhengfu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pMJ-qs-MvS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxp-ue-8C8">
+                                <rect key="frame" x="156" y="336" width="30" height="30"/>
+                                <state key="normal" title="0"/>
+                                <connections>
+                                    <action selector="num0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tus-74-FUX"/>
                                 </connections>
                             </button>
                         </subviews>
